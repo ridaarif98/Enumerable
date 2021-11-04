@@ -7,3 +7,8 @@ puts(list.all? {|e| e < 5})
 
 puts(list.all? {|e| e > 5})
 #false
+
+puts(list.any? {|e| e == 2})
+# => true
+puts(list.any? {|e| e == 5})
+# => false
