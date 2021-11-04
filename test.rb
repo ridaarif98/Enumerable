@@ -13,5 +13,8 @@ puts(list.any? {|e| e == 2})
 puts(list.any? {|e| e == 5})
 # => false
 
-print(list.filter {|e| e.even?})
+puts(list.filter {|e| e.even?})
 # 2, 4
+
+puts(list.max)
+# 4

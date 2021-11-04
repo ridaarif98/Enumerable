@@ -22,5 +22,13 @@ module MyEnumerable
         result
     end
     
+    def max
+      maximum = nil
+      each do |e|
+        maximum = e if maximum.nil? || e > maximum
+      end
+      maximum
+    end
+
 
 end
